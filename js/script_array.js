@@ -40,8 +40,13 @@ console.log(arr6);
 
 //////////////////////77777777777777777777
 function arrayFill (a, b){
-
+   let arr = [];
+   for(let i = a; i <= b; i++){
+   console.log(arr.push(i));
+   }
+   return arr;
 }
+arrayFill(2,8)
 
 /////////////////999999999999
 let arr9 = [1,2,3,4,5,6,7,8,9,10];
